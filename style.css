@@ -1,0 +1,57 @@
+<style>
+table,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+  height:auto;
+  background-color: none;
+}
+div{
+  text-align:center;
+  padding-left : 20px;
+  padding-right: 20px;
+}
+a{
+  text-decoration: none;
+}
+.title{
+padding-left:15px;
+font-size: 18px;
+}
+header{
+font-size:25px;
+padding-top : 25px;
+padding-bottom: 20px;
+background-color:#FAFAD2;
+margin: 0px;
+}
+.maintext{
+  text-align: center;
+  margin:0px;
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+padding-left: 0px;
+padding-right: 0px;
+border: 1px solid red;
+}
+.bodytext{
+  font-size: 14px;
+}
+.imp{
+  color : red;
+
+}
+.imp2{
+  color : blue;
+}
+.mobile{
+  color: blue;
+  font-size: 15px;
+  padding: 0px;
+}
+.start{
+  text-align: center;
+  color: #FF6600;
+  font-weight: bold;
+}
+</style>
