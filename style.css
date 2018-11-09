@@ -1,57 +1,72 @@
 <style>
-table,td {
-  border : 1px solid black;
-  border-collapse: collapse;
-  height:auto;
-  background-color: none;
-}
-div{
-  text-align:center;
-  padding-left : 20px;
-  padding-right: 20px;
-}
-a{
-  text-decoration: none;
-}
-.title{
-padding-left:15px;
-font-size: 18px;
-}
-header{
-font-size:25px;
-padding-top : 25px;
-padding-bottom: 20px;
-background-color:#FAFAD2;
-margin: 0px;
-}
-.maintext{
-  text-align: center;
-  margin:0px;
-  font-size: 15px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-padding-left: 0px;
-padding-right: 0px;
-border: 1px solid red;
-}
-.bodytext{
-  font-size: 14px;
-}
-.imp{
-  color : red;
+  #columns{
+    column-width:350px;
+    column-gap: 15px;
+  }
+  #columns figure{
+    display: inline-block;
+    border:1px solid rgba(0,0,0,0.2);
+    margin:0;
+    margin-bottom: 15px;
+    padding:10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+  }
+  #columns figure img{
+    width:100%;
+  }
+  #columns figure figcaption{
+    border-top:1px solid rgba(0,0,0,0.2);
+    padding:10px;
+    margin-top:11px;
 
-}
-.imp2{
-  color : blue;
-}
-.mobile{
-  color: blue;
-  font-size: 15px;
-  padding: 0px;
-}
-.start{
-  text-align: center;
-  color: #FF6600;
-  font-weight: bold;
-}
+  }
+
+   .fine
+    {
+    font-size : 13px;
+    text-align: left;
+    padding- top: 3px;
+    padding-left: 60px;
+    }
+
+
+    .maintext{
+    text-align: center;
+    margin:0px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid red;
+   }
+   header
+    {
+   font-size:25px;
+   padding-top : 25px;
+   padding-bottom: 20px;
+   background-color:#81afb1;
+   margin: 0px;
+   }
+    h3 {
+        text-align: center;
+        margin: 10px;
+        margin-top: 0px;
+
+    }
+   .go {
+        text-align: center;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    .imp{
+    color : red;
+
+   }
+    .imp2{
+    color : blue;
+   }
+   .red{
+    color : red;
+   }
 </style>
