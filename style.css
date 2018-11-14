@@ -1,157 +1,92 @@
 <style>
-  #columns{
-    column-width:350px;
-    column-gap: 15px;
-  }
-  #columns figure{
-    display: inline-block;
-    border:1px solid rgba(0,0,0,0.2);
-    margin:0;
-    margin-bottom: 15px;
-    padding:10px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
-  }
-  #columns figure img{
-    width:100%;
-  }
-  #columns figure figcaption{
-    border-top:1px solid rgba(0,0,0,0.2);
-    padding:10px;
-    margin-top:11px;
+table,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+  height:auto;
+  background-color: none;
+}
+<style>
+table,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+  height:auto;
 
-  }
+}
+div{
+  text-align:center;
+  padding-left : 20px;
+  padding-right: 20px;
+}
+a{
+  text-decoration: none;
+}
+.title{
+padding-left:15px;
+font-size: 18px;
+}
+header{
+font-size:25px;
+padding-top : 25px;
+padding-bottom: 20px;
+background-color:#FAFAD2;
+margin: 0px;
+}
+.maintext{
+  text-align: center;
+  margin:0px;
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+padding-left: 0px;
+padding-right: 0px;
+border: 1px solid red;
+}
+.bodytext{
+  font-size: 14px;
+}
+.imp{
+  color : red;
 
-   .fine
-    {
-    font-size : 13px;
-    text-align: left;
-    padding- top: 3px;
-    padding-left: 60px;
-    }
+}
+.imp2{
+  color : blue;
+}
+.mobile{
+  color: blue;
+  font-size: 15px;
+  padding: 0px;
+}
+.start{
+  text-align: center;
+  color: #FF6600;
+  font-weight: bold;
+}
+/*네비게이션*/
+.menu ul {
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.menu li a {
+  display: block;
+  padding: 5px;
+  padding-left: 30px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration:none
+}
+.menu li a:hover {
+  background-color: #75dbe7;
+}
+.menu ul:after {
+  content:"";
+  display: block;
+  clear: both
+}
+.menu li {
+  float:left;
+  width:auto;}
 
-
-    .maintext{
-    text-align: center;
-    margin:0px;
-    font-size: 15px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    border: 1px solid red;
-   }
-   header
-    {
-   font-size:25px;
-   padding-top : 25px;
-   padding-bottom: 20px;
-   background-color:#81afb1;
-   margin: 0px;
-   }
-    h3 {
-        text-align: center;
-        margin: 10px;
-        margin-top: 0px;
-
-    }
-   .go {
-        text-align: center;
-        text-decoration: none;
-        text-decoration-line: none;
-    }
-    .imp{
-    color : red;
-
-   }
-    .imp2{
-    color : blue;
-   }
-   .red{
-    color : red;
-   }
-   <style>
-     .container{
-
-     }
-         *{
-       box-sizing : border-box;
-     }
-     .container{
-       border:5px solid black;
-             }
-         .container .content{
-           padding-left:200px;
-           padding-right:150px;
-           overflow: hidden;
-                           }
-         .container .content main{
-             width:100%;
-                     }
-           .container .content>*{
-           float:left;
-           padding-bottom:2500px;
-           margin-bottom:-2500px;
-                 }
-         .container .content nav{
-           width:200px;
-           margin-left :-100%;
-           left:-200px;
-           position:relative;
-                               }
-             .container .content aside{
-               width:150px;
-               margin-right:-150px;
-                                   }
-       .container .content>*{
-           float:left;
-           padding-bottom:25px;
-           margin-bottom:25px;
-         }
-       .movie_name{
-          padding-left: 30px;
-          margin-left:  0px;
-           font-size: 11px;
-          padding-right: 0px;
-          margin-right: 0px;
-          text-align: left;
-          text-decoration: none;
-         }
-         .nav_title{
-           padding-top: 50px;
-           margin-top: 50px;
-         text-align: center;
-           }
-           A:link {color:blue;text-decoration:none;} /* 아직 방문하지 않은경우 */
-           A:visited {color:blue; text-decoration:none; }
-     .container footer{
-       clear:both;
-     }
-     @media (max-width:599px){
-       .container .content{
-         padding-left:0;
-         padding-right:0;
-         overflow: visible;
-                         }
-       .container .content main{
-           width:100%;
-                   }
-         .container .content>*{
-         float:none;
-         padding-bottom:0;
-         margin-bottom:0;
-               }
-       .container .content nav{
-         width:auto;
-         margin-left :0;
-         left:0;
-         position:relative;
-                             }
-           .container .content aside{
-             width:auto;
-             margin-right:0;
-                                 }
-       }
-     }
-
- </style>
 </style>
